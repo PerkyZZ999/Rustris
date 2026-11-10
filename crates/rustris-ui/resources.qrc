@@ -1,0 +1,35 @@
+<RCC>
+<!-- Local artwork picker resources. -->
+<qresource prefix="/rustris">
+<file alias="App.qml">../../apps/desktop/qml/App.qml</file>
+<file alias="components/ActionButton.qml">../../apps/desktop/qml/components/ActionButton.qml</file>
+<file alias="components/Caption.qml">../../apps/desktop/qml/components/Caption.qml</file>
+<file alias="components/Field.qml">../../apps/desktop/qml/components/Field.qml</file>
+<file alias="components/ProfileEditor.qml">../../apps/desktop/qml/components/ProfileEditor.qml</file>
+<file alias="components/Theme.qml">../../apps/desktop/qml/components/Theme.qml</file>
+<file alias="components/qmldir">../../apps/desktop/qml/components/qmldir</file>
+<file alias="components/Check.qml">../../apps/desktop/qml/components/Check.qml</file>
+<file alias="components/ScrollFocus.js">../../apps/desktop/qml/components/ScrollFocus.js</file>
+<file alias="components/RunnerDialog.qml">../../apps/desktop/qml/components/RunnerDialog.qml</file>
+<file alias="components/UmuReviewDialog.qml">../../apps/desktop/qml/components/UmuReviewDialog.qml</file>
+<file alias="components/Icon.qml">../../apps/desktop/qml/components/Icon.qml</file>
+<file alias="components/Icons.js">../../apps/desktop/qml/components/Icons.js</file>
+<file alias="components/Covers.js">../../apps/desktop/qml/components/Covers.js</file>
+<file alias="components/CoverArt.qml">../../apps/desktop/qml/components/CoverArt.qml</file>
+<file alias="components/Chip.qml">../../apps/desktop/qml/components/Chip.qml</file>
+<file alias="components/IconButton.qml">../../apps/desktop/qml/components/IconButton.qml</file>
+<file alias="components/NavItem.qml">../../apps/desktop/qml/components/NavItem.qml</file>
+<file alias="components/OverlayDialog.qml">../../apps/desktop/qml/components/OverlayDialog.qml</file>
+<file alias="components/Heading.qml">../../apps/desktop/qml/components/Heading.qml</file>
+<file alias="components/Panel.qml">../../apps/desktop/qml/components/Panel.qml</file>
+<file alias="components/SectionLabel.qml">../../apps/desktop/qml/components/SectionLabel.qml</file>
+<file alias="components/LibraryPage.qml">../../apps/desktop/qml/components/LibraryPage.qml</file>
+<file alias="components/GameCard.qml">../../apps/desktop/qml/components/GameCard.qml</file>
+<file alias="components/DetailPage.qml">../../apps/desktop/qml/components/DetailPage.qml</file>
+<file alias="components/States.js">../../apps/desktop/qml/components/States.js</file>
+<file alias="components/Pill.qml">../../apps/desktop/qml/components/Pill.qml</file>
+<file alias="components/SessionPanel.qml">../../apps/desktop/qml/components/SessionPanel.qml</file>
+<file alias="components/SettingsPage.qml">../../apps/desktop/qml/components/SettingsPage.qml</file>
+<file alias="components/BrowseButton.qml">../../apps/desktop/qml/components/BrowseButton.qml</file>
+</qresource>
+</RCC>

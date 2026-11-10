@@ -1,0 +1,9 @@
+/target/
+/.code-review-graph/
+/.claude/
+**/__pycache__/
+**/.runs/
+**/.qmlls.ini
+/artifacts/**/runtime/
+/tests/private-paths.toml
+/.public/

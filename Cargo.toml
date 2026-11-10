@@ -1,0 +1,38 @@
+[workspace]
+members = ["crates/rustris-core", "crates/rustris-ui", "apps/desktop", "apps/session-helper"]
+exclude = ["experiments/f001", "experiments/f002", "experiments/f003"]
+resolver = "3"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.98"
+publish = false
+
+[workspace.dependencies]
+cxx = "=1.0.205"
+cxx-qt = "=0.10.0"
+cxx-qt-build = "=0.10.0"
+cxx-qt-lib = { version = "=0.10.0", features = ["qt_gui", "qt_qml"] }
+rustix = { version = "=1.1.5", features = ["process", "fs", "event", "net"] }
+rusqlite = { version = "=0.41.0", features = ["bundled", "backup"] }
+serde = { version = "=1.0.229", features = ["derive"] }
+serde_json = "=1.0.154"
+sha2 = "=0.10.9"
+thiserror = "=2.0.21"
+tokio = { version = "=1.54.1", features = ["rt-multi-thread", "sync", "time"] }
+toml = "=1.1.8"
+ureq = { version = "=3.5.1", default-features = false, features = ["rustls"] }
+tracing = "=0.1.44"
+tracing-subscriber = { version = "=0.3.23", default-features = false, features = ["fmt"] }
+uuid = { version = "=1.29.0", features = ["v4", "v7", "serde"] }
+
+[profile.release]
+debug = 1
+
+[workspace.lints.rust]
+unsafe_op_in_unsafe_fn = "deny"
+
+[workspace.lints.clippy]
+unwrap_used = "warn"
+expect_used = "warn"

@@ -1,0 +1,22 @@
+[package]
+name = "rustris-session-helper"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+
+[[bin]]
+name = "rustris-session"
+path = "src/main.rs"
+
+[dependencies]
+rustris-core = { path = "../../crates/rustris-core", version = "=0.1.0" }
+
+[lints]
+workspace = true
+
+[dev-dependencies]
+rusqlite.workspace = true
+uuid.workspace = true
+serde_json.workspace = true
+rustix.workspace = true

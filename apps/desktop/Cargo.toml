@@ -1,0 +1,23 @@
+[package]
+name = "rustris-desktop"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish.workspace = true
+
+[[bin]]
+name = "rustris"
+path = "src/main.rs"
+
+[features]
+test-support = ["rustris-ui/test-support"]
+
+[dependencies]
+tracing.workspace = true
+tracing-subscriber.workspace = true
+rustris-ui = { path = "../../crates/rustris-ui", version = "=0.1.0" }
+cxx-qt.workspace = true
+cxx-qt-lib.workspace = true
+
+[lints]
+workspace = true
