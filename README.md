@@ -11,6 +11,7 @@ UMU and Proton, and see exactly what happened when something goes wrong.
 ![Qt](https://img.shields.io/badge/Qt-6.12%20Quick-41cd52?logo=qt)
 ![Platform](https://img.shields.io/badge/platform-Linux-blue?logo=linux)
 ![Status](https://img.shields.io/badge/status-early%20development-yellow)
+![License](https://img.shields.io/badge/license-MIT-blue)
 
 ![The Rustris library](docs/screenshots/library-grid.png)
 
@@ -294,4 +295,4 @@ The default build never contains the test hooks.
 
 ## License
 
-A license has not been chosen yet. Until one is added, all rights are reserved by the author.
+Rustris is released under the [MIT License](LICENSE).
